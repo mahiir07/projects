@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#main{
+    overflow: hidden;
+    background: blueviolet;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.child{ 
+    height: 180px;
+    width: 200px;
+    background: red;
+    margin: 10px;
+    display: inline-block;
+}
